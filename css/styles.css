@@ -1,0 +1,180 @@
+/* Navbar */
+
+.navbar-brand{
+font-family: 'ubuntu';
+font-weight: bold;
+font-size: 2.3rem;
+}
+.navbar{
+padding: 0 0 7rem 0;
+}
+.nav-item{
+padding: 0 1rem 0;
+font-size: large;
+font-family: 'Montserrat';
+font-weight:400;
+text-align: left;
+}
+
+
+/* Body section */
+
+
+
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 3rem;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: aliceblue;
+    padding: 0 0 4rem 0;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+p{
+    color:#969494
+}
+.container-fluid{
+    padding: 3% 15% 2%;
+}
+.title-img{
+    width: 18rem;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.download-btn{
+    margin: 50px 10px;
+} 
+
+
+        /* Feature */
+
+.container{
+    text-align: center;
+    padding: 4% 2.5% 4%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-icon{
+    font-size: 2.7rem;
+    color: #fc5e58;
+    padding: 0 0 0.8rem;
+}
+.feature-icon:hover{
+    color: #f32040;
+}
+
+
+        /* Testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    color: #fff;
+    background-color: #fc5e58;
+
+}
+.testimonials-img{
+    border-radius: 100%;
+}
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 0 3rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+        /* press */
+
+
+#press{
+    text-align: center;
+    background-color: #fc5e58;
+}
+.press-img{
+    height: 7rem;
+    width: 22rem;
+    padding: 5% 15%;
+}
+
+        /*Pricing */
+
+#pricing{
+    padding: 6.4rem;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+        /* Call to Action Section */
+
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-text{
+    font-size: 2.5rem;
+    height: 1.5rem;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight:700;
+    padding-bottom: 30px;
+}
+
+.btn-lite{
+    background-color: #fff;
+}
+.btn-lite:hover{
+    background-color: rgb(61, 58, 58);
+    color: #fff;
+}
+.btn-dark:hover{
+    background-color: rgb(248, 247, 247);
+    color: black;
+}
+
+        /* footer section */
+
+
+#footer{
+    height: 120px;
+    text-align: center;
+    padding: 5% 15% 9%;
+}
+.footer-icon{
+    color: #696464;
+    padding: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+    .title-img{
+        transform: rotate(0deg);
+        position: static;
+        padding: 3% 0%;
+    }
+    #title{
+        text-align:center;
+    }
+    #cta{
+        padding: 50px 0;
+    }
+}
